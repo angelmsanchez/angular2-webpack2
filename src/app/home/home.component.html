@@ -1,0 +1,16 @@
+<div id="home" class="container">
+
+  <h4 id="title">{{ 'HOME.TITLE' | translate }}</h4>
+
+  <h5>{{ 'HOME.USERS' | translate }}</h5>
+  <p *ngFor="let user of users"> {{ user.name }}</p>
+
+  <div>
+    <h5>{{ 'HOME.REDUX' | translate }}</h5>
+    <form (ngSubmit)="incrementCount()" autocomplete="on">
+      <button md-raised-button color="primary">{{ 'HOME.INCREMENT' | translate }}</button>
+    </form>
+    <p>{{ 'HOME.COUNTER' | translate }}: {{ counter }}</p>
+  </div>
+
+</div>

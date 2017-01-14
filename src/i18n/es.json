@@ -1,0 +1,15 @@
+{
+  "HEADER": {
+    "TITLE": "ANGULAR 2"
+  },
+  "HOME": {
+    "TITLE": "Pagina Home",
+    "USERS": "Lista de Usuarios",
+    "REDUX": "Store Redux",
+    "INCREMENT": "Incrmentar",
+    "COUNTER": "Contador"
+  },
+  "DASHBOARD": {
+    "HOME": "Ir a Home"
+  }
+}

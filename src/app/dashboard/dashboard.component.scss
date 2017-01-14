@@ -1,0 +1,17 @@
+@import "./../../scss/_variables.scss";
+$heigth-button: 100px;
+#dashboard {
+  .trade-report {
+    margin: 20px auto;
+    width: 80%;
+    height: $heigth-button;
+    background: $brand-primary;
+    cursor: pointer;
+    h6 {
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      line-height: $heigth-button;
+    }
+  }
+}
